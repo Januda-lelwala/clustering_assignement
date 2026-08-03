@@ -8,6 +8,9 @@
 \usepackage{cite}
 \usepackage{url}
 
+% BasicTeX does not include the optional Courier font metrics by default.
+\renewcommand{\ttdefault}{cmtt}
+
 \graphicspath{{figures/}}
 \setlength{\textfloatsep}{5pt plus 1pt minus 1pt}
 \setlength{\floatsep}{4pt plus 1pt minus 1pt}
@@ -15,10 +18,8 @@
 
 \title{Clustering Urban Mobility Patterns Using Bike-Sharing Data}
 
-\author{\IEEEauthorblockN{[Student Name]}
-\IEEEauthorblockA{[Student ID]\\
-[Department and University]\\
-[Email Address]}}
+\author{\IEEEauthorblockN{\mbox{J. U. P. Lelwala}}
+\IEEEauthorblockA{\mbox{230374E}}}
 
 \begin{document}
 \maketitle
